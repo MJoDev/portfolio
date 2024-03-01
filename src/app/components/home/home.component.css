@@ -9,7 +9,6 @@
   }
 .highlight {
     color: #ffb703;
-    width: 0;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid #023047; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -141,3 +140,35 @@ body {
   
 }
 
+.home{
+  padding-bottom: 200px;
+}
+
+.skills{
+  margin-top: 200px;
+  padding-bottom: 200px;
+  
+}
+
+.skillsicon{
+  width: 40px;
+}
+
+.projects{
+  margin-top: 200px;
+  padding-bottom: 200px;
+}
+
+.btnskills {
+  width: 60px;
+  margin-top: 2%;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+
+.technologies{
+  justify-content: center;
+  
+}
