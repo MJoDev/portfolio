@@ -172,3 +172,16 @@ body {
   justify-content: center;
   
 }
+
+.abouts{
+  text-align: justify;
+  margin-right: 40%;
+}
+
+.about{
+  margin-bottom: 250px;
+}
+
+.contact{
+  margin-bottom: 250px;
+}

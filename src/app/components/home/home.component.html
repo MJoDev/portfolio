@@ -1,9 +1,8 @@
 <body>
-    <section>
+    <section id="home">
         <div class="container home">
             <div class="margintop">
                 <p class="subtitle">Hi!, i'm Moisés,</p>
-                <script></script>
                 <h1 class="title">I am <span class="highlight"> a FullStack Developer</span></h1>
                 <p class="info">I'm a passionate programmer with over 4 years <br> of experience across various languages and technologies.</p>
                 <a class="btn btn-dark Cv" href="https://drive.google.com/file/d/1UACFtV6IO8C8v2WKckFoHjuXQf3xtxz4/view?usp=sharing" target="_blank">Download CV</a>
@@ -14,7 +13,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="skills">
         <div class="skills">
             <div class="container">
                 <h1 class="title">My <span class="highlight">Skills</span></h1>
@@ -35,27 +34,75 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="projects">
         <div class="projects">
             <div class="container">
                 <h1 class="title">My <span class="highlight">Projects</span></h1>
+                <p class="info">The most important projects i made <br>related with my skills. </p>
                 <div class="row mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" alt="Java Chess">
+                    <div class="card mx-3 mb-3 mt-3" style="width: 18rem;">
+                        <img class="card-img-top" [src]="javaChess" alt="Java Chess">
                         <div class="card-body">
                           <h5 class="card-title">Java Chess</h5>
                           <p class="card-text">A complete chess game made in Java.</p>
-                          <a href="#" class="btn btn-dark Cv">Go to repository</a>
+                          <a href="https://github.com/MJoDev/JavaChess" target="_blank" class="btn btn-dark Cv">Go to repository</a>
                         </div>
                     </div>
-                    <div class="card mx-5" style="width: 18rem;">
-                        <img class="card-img-top" alt="Python Games">
+                    <div class="card mx-3 mb-3 mt-3" style="width: 18rem;">
+                        <img class="card-img-top" [src]="pythonGames" alt="Python Games">
                         <div class="card-body">
                           <h5 class="card-title">Python Games</h5>
                           <p class="card-text">A series of videogames made in Python with PyGame and Turtle.</p>
-                          <a href="#" class="btn btn-dark Cv">Go to repository</a>
+                          <a href="https://github.com/MJoDev/PythonMiniGames" target="_blank" class="btn btn-dark Cv">Go to repository</a>
                         </div>
-                      </div>
+                    </div>
+                    <div class="card mx-3 mb-3 mt-3" style="width: 18rem;">
+                        <img class="card-img-top" [src]="livestock" alt="Livestock Control System">
+                        <div class="card-body">
+                          <h5 class="card-title">Livestock Control System</h5>
+                          <p class="card-text">MEAN Stack project, freelance commission, Livestock control system and CRUD for "La Quebrada" farm. </p>
+                          <a href="https://github.com/MJoDev/LivestockControlSystem" target="_blank" class="btn btn-dark Cv">Go to repository</a>
+                        </div>
+                    </div>
+                    <div class="card mx-3 mb-3 mt-3" style="width: 18rem;">
+                        <img class="card-img-top"[src]="qronos" alt="QRonos Attendance Control System">
+                        <div class="card-body">
+                          <h5 class="card-title">QRonos Attendance Control System</h5>
+                          <p class="card-text">MEAN Stack project, freelance commission, CRUD, QR-based attendance control system.</p>
+                          <a href="https://github.com/MJoDev/QRonosAttendanceControlSystem"  target="_blank" class="btn btn-dark Cv">Go to repository</a>
+                        </div>
+                    </div>
+                    <div class="card mx-3 mb-3 mt-3" style="width: 18rem;">
+                        <img class="card-img-top" [src]="hacking" alt="Python Virus">
+                        <div class="card-body">
+                          <h5 class="card-title">Python Hacking</h5>
+                          <p class="card-text">Virus and malware test series. </p>
+                          <a href="https://github.com/MJoDev/PythonHacking" target="_blank" class="btn btn-dark Cv">Go to repository</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about">
+            <div class="container">
+                <h1 class="title">About <span class="highlight">Me</span></h1>
+                <p class="info abouts">My primary focus lies in web development, particularly back-end using the MEAN stack (MongoDB, Express.js, AngularJS, Node.js). However, my journey extends to game development with C# and Unity, general programming with Java, and even Python-based machine learning projects. Additionally, I possess skills in ethical hacking and penetration testing using Kali Linux, along with solid knowledge of DevOps practices. </p>
+                
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact">
+            <div class="container">
+                <h1 class="title"><span class="highlight">Contact</span></h1>
+                <p class="info"> You can contact me in the following media:</p>
+                <div class="btnred">
+                    <a href="mailto:stoppedmjdev@gmail.com" class="aPage" target="_blank"> <fa-icon [icon]="faenvelopes"></fa-icon></a>
+                    <a href="https://wa.me/584121536865" class="aPage" target="_blank"> <fa-icon [icon]="faPhone"></fa-icon></a>
+                    <a href="https://www.instagram.com/mjd.ev?igsh=MTV6aDNlbXE2Z2h4dA==" class="aPage" target="_blank"> <fa-icon [icon]="faInstagram"></fa-icon></a>
                 </div>
                 
             </div>

@@ -12,7 +12,9 @@ import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import { faGit } from '@fortawesome/free-brands-svg-icons';
 import { faJenkins } from '@fortawesome/free-brands-svg-icons';
-
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -35,6 +37,18 @@ export class HomeComponent implements OnInit {
   faBootstrap = faBootstrap;
   faGit = faGit;
   faJenkins = faJenkins;
+  faenvelopes = faEnvelope;
+  faPhone = faWhatsapp;
+  faInstagram = faInstagram;
+
+  pythonGames: string = '/assets/images/PythonGames.png';
+  javaChess: string = '/assets/images/JavaChess.png';
+  livestock: string = '/assets/images/Livestock.png';
+  qronos: string = '/assets/images/Qronos.png';
+  hacking: string = '/assets/images/hacking.jpeg';
+
+
+
 
   
   faLinkedin = faLinkedin;
