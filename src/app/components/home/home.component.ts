@@ -46,6 +46,8 @@ export class HomeComponent implements OnInit {
   livestock: string = '/assets/images/Livestock.png';
   qronos: string = '/assets/images/Qronos.png';
   hacking: string = '/assets/images/hacking.jpeg';
+  facial: string = '/assets/images/facial.png';
+  
 
 
 
