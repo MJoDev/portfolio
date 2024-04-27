@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
   javaChess: string = '/assets/images/JavaChess.png';
   livestock: string = '/assets/images/Livestock.png';
   qronos: string = '/assets/images/Qronos.png';
-  hacking: string = '/assets/images/hacking.jpeg';
+  game: string = '/assets/images/game.png';
   facial: string = '/assets/images/facial.png';
   
 
